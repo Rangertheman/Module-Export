@@ -19,154 +19,45 @@
       "minimum":"12",
       "verified":"12"
    },
-   
+   "relationships":{
+      "systems":[
+         {
+            "id":"dragonbane",
+            "type":"system",
+            "compatibility":{
+               "minimum":"1.9.0"
+            }
+         }
+      ]
+   },
    "packs":[
       {
-         "label":"SV Grunddrag",
-         "name":"sv-grunddrag",
-         "path":"./packs/sv-grunddrag.db",
-         "type":"Item",
-         "system":"dungeonworld"
+         "label":"Dragons of Icespire Peak Journals",
+         "name":"icespire-journals",
+         "path":"./packs/icespire-journals.db",
+         "type":"JournalEntry",
+         "system":"dragonbane"
       },
       {
-         "label":"SV Klasser",
-         "name":"sv-klasser",
-         "path":"./packs/sv-klasser.db",
-         "type":"Item",
-         "system":"dungeonworld"
+         "label":"Dragons of Icespire Peak Scenes",
+         "name":"icespire-scenes",
+         "path":"./packs/icespire-scenes.db",
+         "type":"Scene",
+         "system":"dragonbane"
       },
       {
-         "label":"SV Krigarens drag",
-         "name":"sv-krigarens-drag",
-         "path":"./packs/sv-krigarens-drag.db",
-         "type":"Item",
-         "system":"dungeonworld"
+         "label":"Mines of Phandelver Journals",
+         "name":"phandelver-journals",
+         "path":"./packs/phandelver-journals.db",
+         "type":"JournalEntry",
+         "system":"dragonbane"
       },
       {
-         "label":"SV Rackarens drag",
-         "name":"sv-rackarens-drag",
-         "path":"./packs/sv-rackarens-drag.db",
-         "type":"Item",
-         "system":"dungeonworld"
-      },
-      {
-         "label":"SV Magikerns drag",
-         "name":"sv-magikerns-drag",
-         "path":"./packs/sv-magikerns-drag.db",
-         "type":"Item",
-         "system":"dungeonworld"
-      },
-      {
-         "label":"SV Klerkens drag",
-         "name":"sv-klerkens-drag",
-         "path":"./packs/sv-klerkens-drag.db",
-         "type":"Item",
-         "system":"dungeonworld"
-      },
-      {
-         "label":"SV Barbarens drag",
-         "name":"sv-barbarens-drag",
-         "path":"./packs/sv-barbarens-drag.db",
-         "type":"Item",
-         "system":"dungeonworld"
-      },
-      {
-         "label":"SV Stigfinnarens drag",
-         "name":"sv-stigfinnarens-drag",
-         "path":"./packs/sv-stigfinnarens-drag.db",
-         "type":"Item",
-         "system":"dungeonworld"
-      },
-      {
-         "label":"SV Bardens drag",
-         "name":"sv-bardens-drag",
-         "path":"./packs/sv-bardens-drag.db",
-         "type":"Item",
-         "system":"dungeonworld"
-      },
-      {
-         "label":"SV Paladinens drag",
-         "name":"sv-paladinens-drag",
-         "path":"./packs/sv-paladinens-drag.db",
-         "type":"Item",
-         "system":"dungeonworld"
-      },
-      {
-         "label":"SV Druidens drag",
-         "name":"sv-druidens-drag",
-         "path":"./packs/sv-druidens-drag.db",
-         "type":"Item",
-         "system":"dungeonworld"
-      },
-      {
-         "label":"SV Brännarens drag",
-         "name":"sv-brannarens-drag",
-         "path":"./packs/sv-brannarens-drag.db",
-         "type":"Item",
-         "system":"dungeonworld"
-      },
-      {
-         "label":"SV Utrustning (Vapen)",
-         "name":"sv-utrustning-vapen",
-         "path":"./packs/sv-utrustning-vapen.db",
-         "type":"Item",
-         "system":"dungeonworld"
-      },
-      {
-         "label":"SV Utrustning (Rustningar)",
-         "name":"sv-utrustning-rustningar",
-         "path":"./packs/sv-utrustning-rustningar.db",
-         "type":"Item",
-         "system":"dungeonworld"
-      },
-      {
-         "label":"SV Utrustning (Gifter)",
-         "name":"sv-utrustning-gifter",
-         "path":"./packs/sv-utrustning-gifter.db",
-         "type":"Item",
-         "system":"dungeonworld"
-      },
-      {
-         "label":"SV Utrustning (Prylar)",
-         "name":"sv-utrustning-prylar",
-         "path":"./packs/sv-utrustning-prylar.db",
-         "type":"Item",
-         "system":"dungeonworld"
-      },
-      {
-         "label":"SV Utrustning (Klass)",
-         "name":"sv-utrustning-klass",
-         "path":"./packs/sv-utrustning-klass.db",
-         "type":"Item",
-         "system":"dungeonworld"
-      },
-      {
-         "label":"SV Etiketter",
-         "name":"sv-etiketter",
-         "path":"./packs/sv-etiketter.db",
-         "type":"Item",
-         "system":"dungeonworld"
-      },
-      {
-         "label":"SV Magikerns bevärjelser",
-         "name":"sv-magikerns-besvarjelser",
-         "path":"./packs/sv-magikerns-besvarjelser.db",
-         "type":"Item",
-         "system":"dungeonworld"
-      },
-      {
-         "label":"SV Klerkens besvärjelser",
-         "name":"sv-klerkens-besvarjelser",
-         "path":"./packs/sv-klerkens-besvarjelser.db",
-         "type":"Item",
-         "system":"dungeonworld"
-      },
-      {
-         "label":"SV WoA-drag",
-         "name":"sv-woa-drag",
-         "path":"./packs/sv-woa-drag.db",
-         "type":"Item",
-         "system":"dungeonworld"
+         "label":"Mines of Phandelver Scenes",
+         "name":"phandelver-scenes",
+         "path":"./packs/phandelver-scenes.db",
+         "type":"Scene",
+         "system":"dragonbane"
       }
    ]
 }
