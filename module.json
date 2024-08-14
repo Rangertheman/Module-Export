@@ -14,7 +14,7 @@
          }
       }
    ],
-   "version":"0.0.2",
+   "version":"0.0.3",
    "compatibility":{
       "minimum":"12",
       "verified":"12"
@@ -68,8 +68,8 @@
       },
       {
          "label":"Dragons of Icespire Pike Monsters",
-         "name":"icespire-monsters",
-         "path":"./packs/icespire-monsters.db",
+         "name":"icespire-monster",
+         "path":"./packs/icespire-monster.db",
          "type":"Actor",
          "system":"dragonbane"
       }
@@ -81,7 +81,7 @@
          "color":"#5987bb",
          "packs":[
             "icespire-journals",
-            "icespire-monsters",
+            "icespire-monster",
             "icespire-scenes",
             "phandelver-journals",
             "phandelver-monsters",
