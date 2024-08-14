@@ -14,7 +14,7 @@
          }
       }
    ],
-   "version":"0.0.1",
+   "version":"0.0.2",
    "compatibility":{
       "minimum":"12",
       "verified":"12"
@@ -58,6 +58,38 @@
          "path":"./packs/phandelver-scenes.db",
          "type":"Scene",
          "system":"dragonbane"
+      },
+      {
+         "label":"Mines of Phandelver Monsters",
+         "name":"phandelver-monsters",
+         "path":"./packs/phandelver-monsters.db",
+         "type":"Actor",
+         "system":"dragonbane"
+      },
+      {
+         "label":"Dragons of Icespire Pike Monsters",
+         "name":"icespire-monsters",
+         "path":"./packs/icespire-monsters.db",
+         "type":"Actor",
+         "system":"dragonbane"
+      }
+   ],
+   "packFolders":[
+      {
+         "name":"DDB Items for Dragonbane",
+         "sorting":"a",
+         "color":"#5987bb",
+         "packs":[
+            "icespire-journals",
+            "icespire-monsters",
+            "icespire-scenes",
+            "phandelver-journals",
+            "phandelver-monsters",
+            "phandelver-scenes"
+         ],
+         "folders":[
+            
+         ]
       }
    ]
 }
