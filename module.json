@@ -1,5 +1,5 @@
 {
-"id": "Module-Export",
+   "id":"Module-Export",
    "title":"Module Export",
    "description":"Transfers compendiums",
    "url":"https://github.com/Rangertheman/Module-Export",
@@ -19,10 +19,7 @@
       "minimum":"12",
       "verified":"12"
    },
-
-   "esmodules":[
-      "modules/settings.js"
-   ],
+   
    "packs":[
       {
          "label":"SV Grunddrag",
